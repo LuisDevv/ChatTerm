@@ -1,0 +1,153 @@
+ body {
+    background-color: black;
+    text-align: center;
+ }
+
+.navbar {
+    height: 60px;
+}
+
+ .navlist a{
+    float: left;
+    margin: 4px;
+    padding: 4px;
+
+    font-size: 20px;
+    font-family: monospace;
+ }
+
+ .navlist a:hover {
+    transform: scale(1.1);
+}
+
+ #main {
+    color: #0bfc03;
+    font-size: 80px;
+    text-align: center;
+
+ }
+
+ #sub {
+    color: #0bfc03;
+    font-size: 20px;
+    text-align: center;
+
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    width: 40ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: monospace;
+    animation: typing 1.5s steps(22), blink .5s step-end infinite alternate;
+ }
+
+ #link-1 {
+   transition: transform 0.5s;
+    color: #0bfc03;
+ }
+
+ #link-2 {
+   transition: transform 0.5s;
+    color: #0bfc03;
+ }
+
+ #link-3 {
+   transition: transform 0.5s;
+    color: #0bfc03;
+ }
+
+ #link-4 {
+   transition: transform 0.5s;
+    color: #0bfc03;
+ }
+
+ #install {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+    margin-top: 70px;
+    margin-bottom: 2px;
+
+
+    border: 2px solid #0bfc03;
+    padding: 5px 12px;
+    text-align: center;
+    display: inline-block;
+    text-decoration:none;
+
+    font-family: monospace;
+
+    transition: transform 1s;
+ }
+
+ #install:hover {
+    transform: scale(1.1);
+ }
+
+ #inf-button {
+   font-size: 25px;
+   margin-top: 120px;
+   color: #0bfc03;
+   font-family: monospace;
+   transition: transform 0.8s;
+ }
+
+ #links {
+   text-decoration: none;
+   color: #0bfc03;
+ }
+
+ #inf1 {
+   font-size: 25px;
+   text-align: center;
+   margin-top: 140px;
+   color: #0bfc03;
+   font-family: monospace;
+/*   margin-left: 40px;*/
+ }
+ 
+ #inf2 {
+   font-size: 25px;
+   text-align: center;
+   margin-top: 120px;
+   color: #0bfc03;
+   font-family: monospace;
+/*  margin-right: 40px;*/
+ }
+
+ #inf-button:hover {
+
+   transform: scale(1.1);
+ }
+ 
+ .wrapper {
+   /*This part is important for centering*/
+   display: grid;
+   place-items: center;
+ }
+ 
+ .typing {
+   color: #0bfc03;
+   width: 9ch;
+   animation: typing 1.5s steps(22), blink .5s step-end infinite alternate;
+   white-space: nowrap;
+   overflow: hidden;
+   border-right: 2px solid;
+   font-family: monospace;
+   font-size: 80px;
+ }
+ 
+ @keyframes typing {
+   from {
+     width: 0
+   }
+ }
+     
+ @keyframes blink {
+   50% {
+     border-color: transparent
+   }
+ }
